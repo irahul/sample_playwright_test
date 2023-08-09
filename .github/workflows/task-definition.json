@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "public.ecr.aws/s9k1a1r2/pt2:latest",
+      "image": "public.ecr.aws/s9k1a1r2/pt:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "pt2Container"
+      "name": "ptContainer"
     }
   ],
   "placementConstraints": [],
@@ -56,8 +56,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:858310720047:task-definition/pt2Task:3",
-  "family": "pt2Task",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:858310720047:task-definition/ptTask:1",
+  "family": "ptTask",
   "requiresAttributes": [],
   "pidMode": null,
   "requiresCompatibilities": [
